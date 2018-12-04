@@ -59,11 +59,21 @@ Atualizar o repositório local:
     **IMPORTANTE: o Git só deixa você continuar um trabalho e depois subi-lo para o repositório remoto, se você mantiver a sequência coerente de commits.
 
 Adição de tag:
-    **git tag -a V1.0 -m "Titulo" (para adicionar uma tag)
+    **git tag -a V1.0 -m "<Titulo>" (para adicionar uma tag)
     **git tag (para ver as tag em lista)
+    **git tag -d <nome da tag>
 
 Para criar branch:
     **git branch <nome do branch>
-    **Para ver os branch git branch
-    **git checkout <nome do branch> (para usar o branch)
-    
+    **git branch (Para ver os branch )
+    **git checkout <nome do branch> (para trocar de branch)
+    **git merge <nome do branch que quer juntar> (sempre estar no branch que irá modificar)
+    **git branch -d <nome do branch> (para apagar o branch)
+
+Trabalhando com servidor local:
+    **git init --bare (para que todos possam ter acesso, faze isto no servidor)
+    **git clone file:////<nome do servodor>/<local do projeto> (fazer isso na pasta onde irá clonar)
+    **git remote (para ver o nome do servidor remoto)
+    **git push <nome do servidor> master (gerealmente nome do servidor é "origin")
+    **git pull <nome do servidor> master (para atualizar as alterações em tempo real para outra pessoa, comando tem que ser feito na pasta do projeto que irá atualizar)
+    **git fetch <nome do servidor> <nome do branch> ("ver como funciona!!!")
