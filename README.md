@@ -1,8 +1,8 @@
 ## Manual Git
 
 * Configuração:
-   * **git config --global user.name "Seu Nome"**
-   **git config --global user.email Seu Email** (Sempre com email do GITHUB)
+   * **git config --global user.name "< Seu Nome >"**
+   * **git config --global user.email < Seu Email >** (Sempre com email do GITHUB)
 
 * Para iniciar o versionamento:
     * **criar o arquivo .gitignore** (com as opções)
