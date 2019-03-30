@@ -33,6 +33,11 @@
       * tecla ESC
       * :q!
       * Tecle ENTER
+      
+* Caso tenha enviado um commit errado para o repositório remoto:
+  * Precisa dar reset no repositório local primeiro 
+  * Logo em seguida forçar o push com **git push origin +< nome do branch >** (geralmente MASTER), dessa forma força a atualização do repositorio
+  
 
 * Para ver o que foi alterado antes de dar commit:
     * **git diff** (para usar esse método não pode ser feito o add)
