@@ -39,7 +39,7 @@
   * Logo em seguida forçar o push com **git push -f origin < nome do branch >** (geralmente MASTER), dessa forma força a atualização do repositorio
 
 * No caso queira parar de versionar um arquivo/pasta e ignorar ou ate mesmo deixar de exemplo 
-  * **git update-index --assume-unchanged <arquivo/diretorio> **
+  * **git update-index --assume-unchanged <arquivo/diretorio>**
 
 * Para ver o que foi alterado antes de dar commit:
     * **git diff** (para usar esse método não pode ser feito o add)
