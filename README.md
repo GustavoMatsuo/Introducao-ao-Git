@@ -74,7 +74,8 @@
     * **git branch** (Para ver os branch )
     * **git checkout < nome do branch >** (para trocar de branch)
     * **git merge < nome do branch que quer juntar >** (**Atenção:** sempre o branch que estar irá modificar)
-    * **git branch -d < nome do branch >** (para apagar o branch)
+    * **git branch -d < nome do branch >** (para apagar o branch LOCAL)
+    * **git push < nome do origin > < nome do branch > --delete** (para apagar o branch REMOTO))
 
 * Trabalhando com servidor local:**OBS: não pude conferir ainda como funciona essa parte**
     * **git init --bare** (para que todos possam ter acesso, faze isto no servidor)
